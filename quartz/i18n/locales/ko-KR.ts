@@ -30,7 +30,7 @@ export default {
       darkMode: "다크 모드",
     },
     explorer: {
-      title: "탐색기",
+      title: "🧭 목록",
     },
     footer: {
       createdWith: "Created with",
