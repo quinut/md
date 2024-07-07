@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Velone
 ---
 
 This is a blank Quartz installation.
