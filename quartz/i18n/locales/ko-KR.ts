@@ -10,7 +10,7 @@ export default {
       note: "노트",
       abstract: "개요",
       info: "정보",
-      todo: "할일",
+      todo: "할 일",
       tip: "팁",
       success: "성공",
       question: "질문",
@@ -64,7 +64,7 @@ export default {
     },
     error: {
       title: "Not Found",
-      notFound: "페이지가 존재하지 않거나 비공개 설정이 되어 있습니다.",
+      notFound: "페이지가 존재하지 않거나 비공개로 설정 되어 있습니다.",
       home: "홈페이지로 돌아가기",
     },
     folderContent: {
