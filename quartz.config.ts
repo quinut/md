@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ko-KR",
     baseUrl: "velone.kro.kr",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
