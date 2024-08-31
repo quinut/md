@@ -10,7 +10,7 @@ export default {
       note: "노트",
       abstract: "개요",
       info: "정보",
-      todo: "할일",
+      todo: "할 일",
       tip: "팁",
       success: "성공",
       question: "질문",
@@ -30,7 +30,7 @@ export default {
       darkMode: "다크 모드",
     },
     explorer: {
-      title: "탐색기",
+      title: "목록",
     },
     footer: {
       createdWith: "Created with",
@@ -39,11 +39,11 @@ export default {
       title: "그래프 뷰",
     },
     recentNotes: {
-      title: "최근 게시글",
+      title: "최근 문서",
       seeRemainingMore: ({ remaining }) => `${remaining}건 더보기 →`,
     },
     transcludes: {
-      transcludeOf: ({ targetSlug }) => `${targetSlug}의 포함`,
+      transcludeOf: ({ targetSlug }) => `${targetSlug} 포함`,
       linkToOriginal: "원본 링크",
     },
     search: {
@@ -59,22 +59,22 @@ export default {
   },
   pages: {
     rss: {
-      recentNotes: "최근 게시글",
-      lastFewNotes: ({ count }) => `최근 ${count} 건`,
+      recentNotes: "최근 문서",
+      lastFewNotes: ({ count }) => `최근 ${count}건`,
     },
     error: {
       title: "Not Found",
-      notFound: "페이지가 존재하지 않거나 비공개 설정이 되어 있습니다.",
-      home: "홈페이지로 돌아가기",
+      notFound: "페이지가 존재하지 않거나 비공개로 설정되어 있습니다.",
+      home: "홈으로 돌아가기",
     },
     folderContent: {
       folder: "폴더",
-      itemsUnderFolder: ({ count }) => `${count}건의 항목`,
+      itemsUnderFolder: ({ count }) => `${count}건`,
     },
     tagContent: {
       tag: "태그",
       tagIndex: "태그 목록",
-      itemsUnderTag: ({ count }) => `${count}건의 항목`,
+      itemsUnderTag: ({ count }) => `${count}건`,
       showingFirst: ({ count }) => `처음 ${count}개의 태그`,
       totalTags: ({ count }) => `총 ${count}개의 태그를 찾았습니다.`,
     },
