@@ -5,10 +5,23 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        repo: 'quinut/velone',
+        repoId: 'R_kgDOMS7ocg',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOMS7ocs4Cl_fV',
+        themeUrl: "https://velone.kro.kr/static/giscus",
+        lightTheme: "light-theme",
+        darkTheme: "dark-theme",
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
-      "Quartz GitHub": "https://github.com/jackyzha0/quartz",
+      "GitHub": "https://github.com/quinut/velone",
       "Discord": "https://discord.com/users/659331821137428480",
     },
   }),
