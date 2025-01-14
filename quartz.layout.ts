@@ -11,8 +11,8 @@ export const sharedPageComponents: SharedLayout = {
       options: {
         repo: 'quinut/velone',
         repoId: 'R_kgDOMS7ocg',
-        category: 'Announcements',
-        categoryId: 'DIC_kwDOMS7ocs4Cl_fV',
+        category: 'giscus',
+        categoryId: 'DIC_kwDOMS7ocs4Cl_pV',
         themeUrl: "https://velone.kro.kr/static/giscus",
         lightTheme: "light-theme",
         darkTheme: "dark-theme",
